@@ -1,0 +1,22 @@
+.box {
+	width: 5px;
+	height: 5px;
+	float: left;
+	
+}
+body {
+	background: #f6290c;
+	background: -moz-linear-gradient(left, #f6290c 1%, #e73827 6%, #e73827 14%, #e73827 20%, #f02f17 43%, #f85032 61%, #f16f5c 90%);
+	background: -webkit-linear-gradient(left, #f6290c 1%,#e73827 6%,#e73827 14%,#e73827 20%,#f02f17 43%,#f85032 61%,#f16f5c 90%);
+	background: linear-gradient(to right, #f6290c 1%,#e73827 6%,#e73827 14%,#e73827 20%,#f02f17 43%,#f85032 61%,#f16f5c 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6290c', endColorstr='#f16f5c',GradientType=1 );
+}
+.rainbow {
+	background: rgb(139,0,0, 0.5);
+	margin: 10px;
+	padding: 5px;
+}
+h1 {
+	font-family: 'Indie Flower', cursive;
+	padding: 10px;
+}
